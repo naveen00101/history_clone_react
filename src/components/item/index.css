@@ -1,0 +1,51 @@
+li {
+  list-style: none;
+  display: flex;
+
+  justify-content: space-between;
+  min-width: 75vw;
+  font-family: roboto;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+.time {
+  margin-right: 70px;
+}
+
+.title {
+  margin-right: 20px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.domain {
+  color: #64748b;
+}
+
+.item {
+  display: flex;
+}
+
+.item-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.del-img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
